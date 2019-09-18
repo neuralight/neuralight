@@ -12,9 +12,37 @@
 <p id="demo">This is a paragraph.</p>
 <p id="test">This is a testy paragraph.</p>
 <button type="button" onclick="myFunction()">Try it</button>
-<button type="button" onclick="myFunctions()">Try it nowt</button>
 <br><br>
-<a href="https://www.w3schools.com">This is a link</a>
+  <form name="frm1">
+  <p>
+    <label>Title</label><br>
+    <label>
+      <input type="radio" name="title" value="male">
+      Male
+    </label>
+    <label>
+      <input type="radio" name="title" value="female">
+      Female
+    </label>
+  </p>
+  <p>
+    <label>Age:</label><br>
+    <input type="text" name="age" required>
+  </p>
+  <p>
+    <label>Weight:</label><br>
+    <input type="text" name="weight" required>
+  </p>
+    <label>Activty Level</label><br>
+    <select>
+      <option>Sedentary</option>
+      <option>Very Active</option>
+    </select>
+  </p>
+  <p>
+    <button>Calculate</button>
+  </p>
+</form>
 
 <script src="myScript.js"></script>
 </body>
